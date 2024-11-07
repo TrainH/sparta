@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인 페이지</title>
+    <style>
+      .title {
+        /* 
+        width: 너비 300 픽셀 
+        height: 높이 200 픽셀 
+        */
+        width: 300px;
+        height: 200px;
+
+        /* 
+        color: 글자 색깔 - 흰색
+        text-align: 글자 정렬 - 가운데
+        */
+        color: white;
+        text-align: center;
+
+        /* 
+        padding-top: class 영역 안(padding)의 글자 기준 위쪽(top)이 300px 
+        border-radius: 경계선-반지름, 모서리를 둥글게
+        */
+        padding: 30px;
+        border-radius: 80px;
+
+        /* 
+        background-image: 배경-이미지, url이 ~인 곳에서 이미지 파일을 불러옴 
+        background-position: 배경-위치, 가운데 위치 시킬거다
+        background-size: 배경-크기, 덮도록 할거다
+        */
+        background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">로그인페이지</h1>
+    <p>ID: <input type="text" /></p>
+    <p>PW: <input type="text" /></p>
+    <button>로그인하기</button>
+  </body>
+</html>
